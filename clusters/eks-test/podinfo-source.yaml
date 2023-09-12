@@ -5,6 +5,8 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
+  secretRef: 
+    name: git-token  
   ref:
     branch: main
   url: https://github.com/vivekjcloud/flux-sync-repo
